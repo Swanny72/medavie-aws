@@ -1,0 +1,5 @@
+.project
+org.eclipse.m2e.core.prefs
+.classpath
+medavie-aws-lambda/.settings
+medavie-aws-lambda/target

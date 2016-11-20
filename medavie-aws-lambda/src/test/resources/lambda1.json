@@ -1,0 +1,40 @@
+{
+  "body": "ewoJImZpZWxkT25lIiA6ICJoZWxsbyIsIAoJImZpZWxkVHdvIiA6ICIxIiwKCSJmaWVsZFRocmVlIiA6ICJ3b3JsZCIgCn0=",
+  "params": [
+    {}
+  ],
+  "query": [
+    {
+      "paramOne": "1",
+      "paramThree": "Lorne",
+      "paramTwo": "Clayton"
+    }
+  ],
+  "headers": [
+    {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, sdch, br",
+      "Accept-Language": "en-US,en;q=0.8",
+      "Cache-Control": "no-cache",
+      "CloudFront-Forwarded-Proto": "https",
+      "CloudFront-Is-Desktop-Viewer": "true",
+      "CloudFront-Is-Mobile-Viewer": "false",
+      "CloudFront-Is-SmartTV-Viewer": "false",
+      "CloudFront-Is-Tablet-Viewer": "false",
+      "CloudFront-Viewer-Country": "CA",
+      "Content-Type": "application/json",
+      "Host": "54blgddqzl.execute-api.us-east-1.amazonaws.com",
+      "Origin": "chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop",
+      "Postman-Token": "bc5ef381-a94c-aa21-c7cd-db14786b2f77",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36",
+      "Via": "1.1 f3c502e9ca204e721c5b65ef3266910d.cloudfront.net (CloudFront)",
+      "X-Amz-Cf-Id": "L8K5LlrWta_Sw0XowQy6XFb-56aiT6vTuVYVzXmeXvZboR8GEQoeng==",
+      "X-AMZ-Date": "20161118T144650Z",
+      "X-Forwarded-For": "167.74.128.70, 204.246.180.43",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    }
+  ],
+  "httpMethod": "PUT",
+  "resourcePath": "/client"
+}
