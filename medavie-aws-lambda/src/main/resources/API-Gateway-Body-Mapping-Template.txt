@@ -1,5 +1,8 @@
 {
-  "body" : "$input.body",
+  "body-json" : $input.json('$'),
+  "body" : "$util.base64Encode($input.body)",
+  "httpMethod" : "$context.httpMethod",
+  "resourcePath" : "$context.resourcePath",
   "headers": {
     #foreach($header in $input.params().header.keySet())
     "$header": "$util.escapeJavaScript($input.params().header.get($header))" #if($foreach.hasNext),#end
