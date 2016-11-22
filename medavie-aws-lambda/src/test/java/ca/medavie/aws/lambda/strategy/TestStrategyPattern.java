@@ -16,17 +16,16 @@ public class TestStrategyPattern {
 
 	@Test
 	public void test() throws Exception{
-		BaseLambdaHandler handler = new BaseLambdaHandler();
-		handler.addResourceMethodMapEntry(new ResourceMethodKey("PUT", "/client"), new StrategyOne(InputDataOne.class, ParamDataOne.class));
+		TestingLambdaHandler handler = new TestingLambdaHandler();
 		LambdaRequest request = lambda(res);
 		OutputDataOne output = (OutputDataOne)handler.handleRequest(request, null);
+		System.out.println(output);
 		
 	}
 	
 	public LambdaRequest lambda(ResourceFile res) throws Exception{
 		Gson gson = new GsonBuilder().create();
 		return gson.fromJson(res.getContent(), LambdaRequest.class);
-		//return new LambdaRequest();
 	}
 
 }
